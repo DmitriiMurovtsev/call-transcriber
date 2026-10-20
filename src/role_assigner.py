@@ -36,16 +36,78 @@ class RoleAssigner:
         return segments
 
     @staticmethod
+    def _norm_contain(text: str) -> str:
+        """Нормализация для проверки «текст целиком входит в другой»."""
+        import re
+
+        t = text.lower().strip()
+        t = re.sub(r"[^\w\s]+", " ", t, flags=re.UNICODE)
+        return " ".join(t.split())
+
+    @staticmethod
+    def _text_contained_in(inner: str, outer: str) -> bool:
+        """True, если inner целиком входит в outer (регистр/пунктуация игнор)."""
+        a = RoleAssigner._norm_contain(inner)
+        b = RoleAssigner._norm_contain(outer)
+        return bool(a) and a in b
+
+    @staticmethod
+    def _merge_same_speaker_texts(texts: list[str]) -> str:
+        """
+        Склеить подряд реплики одного спикера.
+
+        Если реплика целиком входит в следующую (или наоборот) — короткую
+        не дублируем: «Могу» + «Могу предложить…» → одна фраза.
+        """
+        parts = [t.strip() for t in texts if t and t.strip()]
+        if not parts:
+            return ""
+
+        out: list[str] = []
+        i = 0
+        while i < len(parts):
+            cur = parts[i]
+            if i + 1 < len(parts):
+                nxt = parts[i + 1]
+                if RoleAssigner._text_contained_in(cur, nxt):
+                    i += 1  # cur ⊂ nxt — cur не выводим
+                    continue
+                if RoleAssigner._text_contained_in(nxt, cur):
+                    out.append(cur)
+                    i += 2  # nxt ⊂ cur — nxt пропускаем
+                    continue
+            out.append(cur)
+            i += 1
+        return " ".join(out)
+
+    @staticmethod
     def build_dialog(segments: list[dict[str, Any]]) -> str:
-        """Склеить соседние реплики одной роли в строки диалога."""
-        dialog_parts: list[str] = []
+        """
+        Собрать диалог: чередование ролей (Менеджер / Клиент / …).
+
+        Подряд идущие turn'ы одной роли склеиваются в одну строку.
+        Если текст целиком входит в соседний у того же спикера — отбрасывается.
+        """
+        if not segments:
+            return ""
+
+        groups: list[dict[str, Any]] = []
         for seg in segments:
             role = seg["role"] or seg["speaker"]
-            if dialog_parts and dialog_parts[-1].startswith(f"{role}:"):
-                dialog_parts[-1] = f"{dialog_parts[-1]} {seg['text']}"
+            text = (seg.get("text") or "").strip()
+            if not text:
+                continue
+            if groups and groups[-1]["role"] == role:
+                groups[-1]["texts"].append(text)
             else:
-                dialog_parts.append(f"{role}: {seg['text']}")
-        return "\n".join(dialog_parts)
+                groups.append({"role": role, "texts": [text]})
+
+        lines: list[str] = []
+        for group in groups:
+            merged = RoleAssigner._merge_same_speaker_texts(group["texts"])
+            if merged:
+                lines.append(f'{group["role"]}: {merged}')
+        return "\n".join(lines)
 
     async def assign(self, segments: list[dict[str, Any]]) -> dict[str, str]:
         """Определить роли (Менеджер/Клиент) через Clef-Flash + Ollama."""
