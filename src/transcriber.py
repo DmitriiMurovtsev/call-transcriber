@@ -48,7 +48,12 @@ class Transcriber:
             ],
             check=True, capture_output=True, text=True,
         )
-        return int(result.stdout.strip() or "1")
+        # csv иногда даёт "2" или "1," / "1\n1" — берём первое целое
+        raw = (result.stdout or "").replace(",", " ").split()
+        for token in raw:
+            if token.isdigit():
+                return int(token)
+        return 1
 
     def _to_wav(self, audio_path: Path, *, channel: int | None = None) -> Path:
         """Конвертировать в WAV 16kHz mono. channel=0/1 — извлечь L/R из стерео."""
