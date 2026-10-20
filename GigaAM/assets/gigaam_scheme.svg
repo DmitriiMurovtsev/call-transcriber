@@ -1,0 +1,209 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1350 752' width='1350' height='752'>
+<defs><marker id='arr' markerWidth='6' markerHeight='6' refX='5' refY='2.5' orient='auto'><path d='M0,0 L5,2.5 L0,5 Z' fill='#67768f'/></marker></defs>
+<rect x='0' y='0' width='1350' height='752' fill='#0f1a2c'/>
+<text x='675.0' y='42' font-size='26' fill='#f1f5f9' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>GigaAM Model Family</text>
+<g transform='translate(24.0,66.0)'>
+<text x='70.0' y='14.0' font-size='15.68' fill='#ffffff' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Pre-training</text>
+<text x='214.0' y='14.0' font-size='15.68' fill='#ffffff' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>SSL Encoder</text>
+<text x='404.0' y='14.0' font-size='15.68' fill='#ffffff' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Fine-tuned Models</text>
+<rect x='0.0' y='36.0' width='520.0' height='144.0' rx='14' fill='#152138' stroke='none' stroke-width='1'/>
+<rect x='14.0' y='41.0' width='112.0' height='134.0' rx='10' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='70.0' y='63.0' font-size='14.56' fill='#dbe4f0' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Wav2Vec 2.0</text>
+<ellipse cx='70.0' cy='132.0' rx='42.0' ry='8.4' fill='#6f8cc4' stroke='none' stroke-width='1' />
+<rect x='28.0' y='84.0' width='84.0' height='48.0' rx='0' fill='#6f8cc4' stroke='none' stroke-width='1'/>
+<ellipse cx='70.0' cy='84.0' rx='42.0' ry='8.4' fill='#0f1a2c' stroke='#6f8cc4' stroke-width='1.4' />
+<text x='70.0' y='106.0' font-size='14.56' fill='#ffffff' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>50K hours</text>
+<text x='70.0' y='121.0' font-size='11.20' fill='#ffffff' text-anchor='middle' font-weight='500' font-family='Inter, Helvetica, Arial, sans-serif'>Russian</text>
+<line x1='131.0' y1='108.0' x2='157.0' y2='108.0' stroke='#67768f' stroke-width='1.5' marker-end='url(#arr)'/>
+<rect x='162.0' y='76.0' width='104.0' height='64.0' rx='10' fill='#6f8cc4' stroke='none' stroke-width='1'/>
+<text x='214.0' y='113.0' font-size='15.68' fill='#ffffff' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>v1 240M</text>
+<line x1='271.0' y1='108.0' x2='297.0' y2='108.0' stroke='#67768f' stroke-width='1.5' marker-end='url(#arr)'/>
+<rect x='310.0' y='68.0' width='41.2' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='330.6' y='84.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>emo</text>
+<rect x='310.0' y='96.0' width='64.4' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='342.2' y='112.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>v1_ctc</text>
+<rect x='310.0' y='124.0' width='72.1' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='346.0' y='140.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>v1_rnnt</text>
+<rect x='0.0' y='196.0' width='520.0' height='144.0' rx='14' fill='#152138' stroke='none' stroke-width='1'/>
+<rect x='14.0' y='201.0' width='112.0' height='134.0' rx='10' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='70.0' y='223.0' font-size='14.56' fill='#dbe4f0' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>HuBERT–CTC</text>
+<ellipse cx='70.0' cy='292.0' rx='42.0' ry='8.4' fill='#2fb1a2' stroke='none' stroke-width='1' />
+<rect x='28.0' y='244.0' width='84.0' height='48.0' rx='0' fill='#2fb1a2' stroke='none' stroke-width='1'/>
+<ellipse cx='70.0' cy='244.0' rx='42.0' ry='8.4' fill='#0f1a2c' stroke='#2fb1a2' stroke-width='1.4' />
+<text x='70.0' y='266.0' font-size='14.56' fill='#ffffff' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>50K hours</text>
+<text x='70.0' y='281.0' font-size='11.20' fill='#ffffff' text-anchor='middle' font-weight='500' font-family='Inter, Helvetica, Arial, sans-serif'>Russian</text>
+<line x1='131.0' y1='268.0' x2='157.0' y2='268.0' stroke='#67768f' stroke-width='1.5' marker-end='url(#arr)'/>
+<rect x='162.0' y='236.0' width='104.0' height='64.0' rx='10' fill='#2fb1a2' stroke='none' stroke-width='1'/>
+<text x='214.0' y='273.0' font-size='15.68' fill='#ffffff' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>v2 230M</text>
+<line x1='271.0' y1='268.0' x2='297.0' y2='268.0' stroke='#67768f' stroke-width='1.5' marker-end='url(#arr)'/>
+<rect x='310.0' y='242.0' width='64.4' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='342.2' y='258.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>v2_ctc</text>
+<rect x='310.0' y='270.0' width='72.1' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='346.0' y='286.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>v2_rnnt</text>
+<rect x='0.0' y='356.0' width='520.0' height='144.0' rx='14' fill='#152138' stroke='none' stroke-width='1'/>
+<rect x='14.0' y='361.0' width='112.0' height='134.0' rx='10' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='70.0' y='383.0' font-size='14.56' fill='#dbe4f0' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>HuBERT–CTC</text>
+<ellipse cx='70.0' cy='452.0' rx='42.0' ry='8.4' fill='#55ac70' stroke='none' stroke-width='1' />
+<rect x='28.0' y='404.0' width='84.0' height='48.0' rx='0' fill='#55ac70' stroke='none' stroke-width='1'/>
+<ellipse cx='70.0' cy='404.0' rx='42.0' ry='8.4' fill='#0f1a2c' stroke='#55ac70' stroke-width='1.4' />
+<text x='70.0' y='426.0' font-size='14.56' fill='#ffffff' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>0.7M hours</text>
+<text x='70.0' y='441.0' font-size='11.20' fill='#ffffff' text-anchor='middle' font-weight='500' font-family='Inter, Helvetica, Arial, sans-serif'>Russian</text>
+<line x1='131.0' y1='428.0' x2='157.0' y2='428.0' stroke='#67768f' stroke-width='1.5' marker-end='url(#arr)'/>
+<rect x='162.0' y='396.0' width='104.0' height='64.0' rx='10' fill='#55ac70' stroke='none' stroke-width='1'/>
+<text x='214.0' y='433.0' font-size='15.68' fill='#ffffff' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>v3 220M</text>
+<line x1='271.0' y1='428.0' x2='297.0' y2='428.0' stroke='#67768f' stroke-width='1.5' marker-end='url(#arr)'/>
+<rect x='310.0' y='374.0' width='64.4' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='342.2' y='390.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>v3_ctc</text>
+<rect x='310.0' y='402.0' width='72.1' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='346.0' y='418.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>v3_rnnt</text>
+<rect x='310.0' y='430.0' width='95.3' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='357.6' y='446.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>v3_e2e_ctc</text>
+<rect x='310.0' y='458.0' width='103.0' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='361.5' y='474.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>v3_e2e_rnnt</text>
+<rect x='0.0' y='516.0' width='520.0' height='144.0' rx='14' fill='#152138' stroke='none' stroke-width='1'/>
+<rect x='14.0' y='521.0' width='112.0' height='134.0' rx='10' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='70.0' y='543.0' font-size='14.56' fill='#dbe4f0' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>HuBERT–style</text>
+<ellipse cx='70.0' cy='612.0' rx='42.0' ry='8.4' fill='#e0934c' stroke='none' stroke-width='1' />
+<rect x='28.0' y='564.0' width='84.0' height='48.0' rx='0' fill='#e0934c' stroke='none' stroke-width='1'/>
+<ellipse cx='70.0' cy='564.0' rx='42.0' ry='8.4' fill='#0f1a2c' stroke='#e0934c' stroke-width='1.4' />
+<text x='70.0' y='586.0' font-size='14.56' fill='#ffffff' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>2M hours</text>
+<text x='70.0' y='601.0' font-size='11.20' fill='#ffffff' text-anchor='middle' font-weight='500' font-family='Inter, Helvetica, Arial, sans-serif'>70+ languages</text>
+<line x1='131.0' y1='588.0' x2='157.0' y2='588.0' stroke='#67768f' stroke-width='1.5' marker-end='url(#arr)'/>
+<rect x='162.0' y='556.0' width='104.0' height='64.0' rx='10' fill='#e0934c' stroke='none' stroke-width='1'/>
+<text x='214.0' y='584.5' font-size='15.12' fill='#ffffff' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>multilingual</text>
+<text x='214.0' y='599.5' font-size='13.44' fill='#ffffff' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>220M / 600M</text>
+<line x1='271.0' y1='588.0' x2='297.0' y2='588.0' stroke='#67768f' stroke-width='1.5' marker-end='url(#arr)'/>
+<rect x='310.0' y='562.0' width='141.6' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='380.8' y='578.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>multilingual_ctc</text>
+<rect x='310.0' y='590.0' width='188.0' height='24.0' rx='6' fill='#1c2a43' stroke='#32425e' stroke-width='1'/>
+<text x='404.0' y='606.5' font-size='14.00' fill='#cdd8e8' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>multilingual_large_ctc</text>
+</g>
+<g transform='translate(592.0,64.0)'>
+<text x='367.0' y='14.0' font-size='19.04' fill='#f1f5f9' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>Word Error Rate &#8595;</text>
+<text x='308.0' y='40.0' font-size='13.44' fill='#ffffff' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>GigaAM</text>
+<line x1='182.0' y1='45.0' x2='434.0' y2='45.0' stroke='#32425e' stroke-width='1'/>
+<text x='608.0' y='40.0' font-size='13.44' fill='#8493ab' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>Baselines</text>
+<line x1='482.0' y1='45.0' x2='734.0' y2='45.0' stroke='#32425e' stroke-width='1'/>
+<text x='6.0' y='76.0' font-size='13.44' fill='#8493ab' text-anchor='start' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Language</text>
+<text x='78.0' y='76.0' font-size='13.44' fill='#8493ab' text-anchor='start' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Dataset</text>
+<text x='216.0' y='67.0' font-size='13.44' fill='#ffffff' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>v3_ctc</text>
+<text x='308.0' y='58.0' font-size='13.44' fill='#ffffff' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Multilingual</text>
+<text x='308.0' y='76.0' font-size='13.44' fill='#ffffff' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>CTC</text>
+<text x='400.0' y='58.0' font-size='13.44' fill='#ffffff' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Multilingual</text>
+<text x='400.0' y='76.0' font-size='13.44' fill='#ffffff' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Large CTC</text>
+<text x='516.0' y='58.0' font-size='13.44' fill='#8493ab' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Whisper</text>
+<text x='516.0' y='76.0' font-size='13.44' fill='#8493ab' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>large v3</text>
+<text x='608.0' y='58.0' font-size='13.44' fill='#8493ab' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Seamless</text>
+<text x='608.0' y='76.0' font-size='13.44' fill='#8493ab' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>M4T v2</text>
+<text x='700.0' y='58.0' font-size='13.44' fill='#8493ab' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>Omnilingual</text>
+<text x='700.0' y='76.0' font-size='13.44' fill='#8493ab' text-anchor='middle' font-weight='600' font-family='Inter, Helvetica, Arial, sans-serif'>1B (LLM)</text>
+<line x1='0.0' y1='85.0' x2='734.0' y2='85.0' stroke='#32425e' stroke-width='1'/>
+<text x='78.0' y='110.8' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>CommonVoice</text>
+<text x='216.0' y='110.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>4.8</text>
+<text x='308.0' y='110.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>7.1</text>
+<text x='400.0' y='110.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>5.1</text>
+<text x='516.0' y='110.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>9.1</text>
+<text x='608.0' y='110.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>9.2</text>
+<text x='700.0' y='110.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>13.6</text>
+<text x='78.0' y='152.2' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>FLEURS</text>
+<text x='216.0' y='152.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>3.6</text>
+<text x='308.0' y='152.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>4.4</text>
+<text x='400.0' y='152.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>3.0</text>
+<text x='516.0' y='152.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>3.1</text>
+<text x='608.0' y='152.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>4.6</text>
+<text x='700.0' y='152.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>6.4</text>
+<text x='78.0' y='193.8' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>Internal</text>
+<text x='216.0' y='193.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>5.6</text>
+<text x='308.0' y='193.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>7.6</text>
+<text x='400.0' y='193.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>6.0</text>
+<text x='516.0' y='193.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>10.1</text>
+<text x='608.0' y='193.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>16.1</text>
+<text x='700.0' y='193.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>14.6</text>
+<line x1='0.0' y1='209.5' x2='734.0' y2='209.5' stroke='#22304a' stroke-width='1'/>
+<text x='78.0' y='235.2' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>CommonVoice</text>
+<text x='216.0' y='235.2' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='235.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>26.0</text>
+<text x='400.0' y='235.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>21.5</text>
+<text x='516.0' y='235.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>20.0</text>
+<text x='608.0' y='235.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>16.2</text>
+<text x='700.0' y='235.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>24.7</text>
+<text x='78.0' y='276.8' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>FLEURS</text>
+<text x='216.0' y='276.8' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='276.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>12.2</text>
+<text x='400.0' y='276.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>9.4</text>
+<text x='516.0' y='276.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>3.9</text>
+<text x='608.0' y='276.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>5.8</text>
+<text x='700.0' y='276.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>7.1</text>
+<line x1='0.0' y1='292.5' x2='734.0' y2='292.5' stroke='#22304a' stroke-width='1'/>
+<text x='78.0' y='318.2' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>CommonVoice</text>
+<text x='216.0' y='318.2' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='318.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>17.2</text>
+<text x='400.0' y='318.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>13.8</text>
+<text x='516.0' y='318.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>57.8</text>
+<text x='608.0' y='318.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>23.8</text>
+<text x='700.0' y='318.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>23.7</text>
+<text x='78.0' y='359.8' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>FLEURS</text>
+<text x='216.0' y='359.8' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='359.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>5.2</text>
+<text x='400.0' y='359.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>4.4</text>
+<text x='516.0' y='359.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>32.4</text>
+<text x='608.0' y='359.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>6.8</text>
+<text x='700.0' y='359.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>6.6</text>
+<text x='78.0' y='401.2' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>Internal</text>
+<text x='216.0' y='401.2' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='401.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>18.8</text>
+<text x='400.0' y='401.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>15.8</text>
+<text x='516.0' y='401.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>65.2</text>
+<text x='608.0' y='401.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>62.9</text>
+<text x='700.0' y='401.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>32.2</text>
+<line x1='0.0' y1='417.0' x2='734.0' y2='417.0' stroke='#22304a' stroke-width='1'/>
+<text x='78.0' y='442.8' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>CommonVoice</text>
+<text x='216.0' y='442.8' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='442.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>12.5</text>
+<text x='400.0' y='442.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>10.2</text>
+<text x='516.0' y='442.8' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='608.0' y='442.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>14.3</text>
+<text x='700.0' y='442.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>21.6</text>
+<text x='78.0' y='484.2' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>FLEURS</text>
+<text x='216.0' y='484.2' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='484.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>7.0</text>
+<text x='400.0' y='484.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>5.5</text>
+<text x='516.0' y='484.2' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='608.0' y='484.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>9.5</text>
+<text x='700.0' y='484.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>8.1</text>
+<text x='78.0' y='525.8' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>Internal</text>
+<text x='216.0' y='525.8' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='525.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>11.1</text>
+<text x='400.0' y='525.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>9.8</text>
+<text x='516.0' y='525.8' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='608.0' y='525.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>78.3</text>
+<text x='700.0' y='525.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>25.0</text>
+<line x1='0.0' y1='541.5' x2='734.0' y2='541.5' stroke='#22304a' stroke-width='1'/>
+<text x='78.0' y='567.2' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>CommonVoice</text>
+<text x='216.0' y='567.2' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='567.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>11.3</text>
+<text x='400.0' y='567.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>9.2</text>
+<text x='516.0' y='567.2' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='608.0' y='567.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>25.1</text>
+<text x='700.0' y='567.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>32.8</text>
+<text x='78.0' y='608.8' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>FLEURS</text>
+<text x='216.0' y='608.8' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='608.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>10.0</text>
+<text x='400.0' y='608.8' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>7.3</text>
+<text x='516.0' y='608.8' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='608.0' y='608.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>11.9</text>
+<text x='700.0' y='608.8' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>15.4</text>
+<text x='78.0' y='650.2' font-size='14.56' fill='#8493ab' text-anchor='start' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>Internal</text>
+<text x='216.0' y='650.2' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='308.0' y='650.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='600' fill-opacity='0.45' font-family='Inter, Helvetica, Arial, sans-serif'>13.8</text>
+<text x='400.0' y='650.2' font-size='17.92' fill='#3ee07a' text-anchor='middle' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>12.7</text>
+<text x='516.0' y='650.2' font-size='17.92' fill='#475569' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>—</text>
+<text x='608.0' y='650.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>40.0</text>
+<text x='700.0' y='650.2' font-size='17.92' fill='#aab7c9' text-anchor='middle' font-weight='400' font-family='Inter, Helvetica, Arial, sans-serif'>30.2</text>
+<text x='6.0' y='152.2' font-size='15.68' fill='#dbe4f0' text-anchor='start' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>Russian</text>
+<text x='6.0' y='256.0' font-size='15.68' fill='#dbe4f0' text-anchor='start' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>English</text>
+<text x='6.0' y='359.8' font-size='15.68' fill='#dbe4f0' text-anchor='start' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>Kazakh</text>
+<text x='6.0' y='484.2' font-size='15.68' fill='#dbe4f0' text-anchor='start' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>Kyrgyz</text>
+<text x='6.0' y='608.8' font-size='15.68' fill='#dbe4f0' text-anchor='start' font-weight='700' font-family='Inter, Helvetica, Arial, sans-serif'>Uzbek</text>
+</g>
+</svg>

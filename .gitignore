@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+temp/
+data/
+logs/
+*.egg-info/
+*.mp3
+*.wav
+!testdata/
+!testdata/**
+.DS_Store
